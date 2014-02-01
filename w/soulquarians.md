@@ -1,4 +1,4 @@
-** The Four Soulquarians Records
+## The Four Soulquarians Records
 
 I don't want to talk specifically what the Soulquarians are/were, as I'm
 sure I'll leave something out / don't know all the facts / etc.  Briefly
@@ -27,7 +27,7 @@ four albums that came out of that specific period:
 - Common: "Like Water for Chocolate"
 - Erykah Badu: "Mama's Gun"
 
-* The Vinyl Picture
+### The Vinyl Picture
 
 *What* was going on in the late 90s/2000??  (The records were all issued
 in 1999/2000.)  Records were NOT coming out on vinyl the way they had
@@ -75,7 +75,7 @@ plain sleeve.  My impression is that the red vinyl album is pretty
 difficult to find.  Actually, any vinyl of Mama's Gun seems difficult to
 find.  It is ripe for a reissue.
 
-* Back to the Program...
+### Back to the Program...
 
 Besides the four albums sharing a similar-ish sound/vibe/feel (not that
 they're interchangeable... I don't really want to get into "reviews" of
@@ -107,7 +107,7 @@ Come to think of it, maybe the *songs* are long.  (I'm thinking while
 I'm writing.  Also, I've never been guilty of writing songs that are way
 too long so I wouldn't know anything about that.)
 
-Let's see (yes, I do have all the CDs):
+Let's see (yeah, I have all the CDs):
 
 - Voodoo: 79min / 13 tracks (just over 6min average)
 - Things Fall Apart: 70min / 18 tracks (under 4min average)
@@ -121,7 +121,7 @@ track) so that would push their actual average song time down.
 
 Anyway...
 
-* J Dilla's Influence
+### J Dilla's Influence
 
 I should have said earlier that Questlove is the key thread running
 through all four albums.  He produces and/or executive produces and/or
@@ -180,7 +180,7 @@ Grandmother", and "Thelonius" (which is also a Slum Village song...) are
 canonical examples of Dilla's production style in this era of his work.
 Cold, cold tracks.
 
-* Back to the Program...
+### Back to the Program...
 
 I'd also like to mention: these artists seem to have discovered Fela
 Kuti right around this time (along with a lot of the rest of the world,
@@ -195,7 +195,7 @@ Fela's catalog was seeing a massive organized reissue for the first (but
 not last!) time.  Was it Afrobeat rennaissance number one?  Or number
 the second?
 
-* In conclusion...
+### In conclusion...
 
 No conclusions were reached.  I like these four records and I like
 thinking about the connections between them.  The artists involved are
