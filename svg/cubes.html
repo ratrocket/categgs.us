@@ -6,534 +6,699 @@
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
 <style>
-h1 {
-  font-family: "mplus-1m",sans-serif;
-  font-weight: 700;
-}
+
+  .person {
+    position: relative;
+    width: 220px;
+    height: 220px;
+  }
+
+  .square {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  .name {
+    position: relative;
+    /*color:#ffffff;
+    */
+    word-break: break-all;
+    font-family: 'mplus-1m',sans-serif;
+    font-weight: 700;
+    line-height: 1em;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+  }
+
 </style>
 
 </head>
 <body>
-<svg width="220" height="220" 
-     viewPort="0 0 220 220" version="1.1"
-     xmlns="http://www.w3.org/2000/svg">
-
-    <!--
-    fg:     fef9f7
-    bg:     1aa9bc
-    bottom: 457c39
-    side:   ffeb00
+<div class="person">
+  <div class="square">
+    <svg width="220" height="220" 
+         viewPort="0 0 220 220" version="1.1"
+         xmlns="http://www.w3.org/2000/svg">
+    
+        <!--
+        fg:     fef9f7
+        bg:     1aa9bc
+        bottom: 457c39
+        side:   ffeb00
+        -->
+    
+        <!-- background -->
+        <rect x="0" y="0" width="205" height="190" fill="#1aa9bc"/>
+    
+        <!-- bottom -->
+        <polygon points=" 0,190 205,190 220,220 15,220" fill="#457c39"/>
+    
+        <!-- side -->
+        <polygon points=" 205,0 205,190 220,220 220,30" fill="#ffeb00"/>
+    
+        <!-- foreground -->
+        <!-- simulate the text w/ something
+        <rect x="30" y="120" width="85" height="3" fill="#fef9f7"/>
+        <rect x="36" y="126" width="85" height="3" fill="#fef9f7"/>
+        <rect x="41" y="131" width="85" height="3" fill="#fef9f7"/>
+        <rect x="47" y="137" width="85" height="3" fill="#fef9f7"/>
     -->
+    
+    </svg>
+  </div><!-- class="square" -->
+  <h1 class="name" style="color: #fef9f7;">
+  The quick brown fox jumped over the et cetera.
+  </h1>
+</div><!-- class="person" -->
 
-    <!-- background -->
-    <rect x="0" y="0" width="205" height="190" fill="#1aa9bc"/>
-
-    <!-- bottom -->
-    <polygon points=" 0,190 205,190 220,220 15,220" fill="#457c39"/>
-
-    <!-- side -->
-    <polygon points=" 205,0 205,190 220,220 220,30" fill="#ffeb00"/>
-
-    <!-- foreground -->
-    <!-- simulate the text w/ something -->
-    <rect x="30" y="120" width="85" height="3" fill="#fef9f7"/>
-    <rect x="36" y="126" width="85" height="3" fill="#fef9f7"/>
-    <rect x="41" y="131" width="85" height="3" fill="#fef9f7"/>
-    <rect x="47" y="137" width="85" height="3" fill="#fef9f7"/>
-
-</svg>
-
-<svg width="220" height="220" 
-     viewPort="0 0 220 220" version="1.1"
-     xmlns="http://www.w3.org/2000/svg">
-
-    <!--
-    fg:     777870
-    bg:     ec6b2d
-    bottom: 333333
-    side:   0d0f05
+<div class="person">
+  <div class="square">
+    <svg width="220" height="220" 
+         viewPort="0 0 220 220" version="1.1"
+         xmlns="http://www.w3.org/2000/svg">
+    
+        <!--
+        fg:     777870
+        bg:     ec6b2d
+        bottom: 333333
+        side:   0d0f05
+        -->
+    
+        <!-- background -->
+        <rect x="0" y="0" width="205" height="190" fill="#ec6b2d"/>
+    
+        <!-- bottom -->
+        <polygon points=" 0,190 205,190 220,220 15,220" fill="#333333"/>
+    
+        <!-- side -->
+        <polygon points=" 205,0 205,190 220,220 220,30" fill="#0d0f05"/>
+    
+        <!-- foreground -->
+        <!-- simulate the text w/ something
+        <rect x="30" y="120" width="85" height="3" fill="#777870"/>
+        <rect x="36" y="126" width="85" height="3" fill="#777870"/>
+        <rect x="41" y="131" width="85" height="3" fill="#777870"/>
+        <rect x="47" y="137" width="85" height="3" fill="#777870"/>
     -->
+    
+    </svg>
+  </div><!-- class="square" -->
+  <h1 class="name" style="color: #777870;">
+  The quick brown fox jumped over the et cetera.
+  </h1>
+</div><!-- class="person" -->
 
-    <!-- background -->
-    <rect x="0" y="0" width="205" height="190" fill="#ec6b2d"/>
-
-    <!-- bottom -->
-    <polygon points=" 0,190 205,190 220,220 15,220" fill="#333333"/>
-
-    <!-- side -->
-    <polygon points=" 205,0 205,190 220,220 220,30" fill="#0d0f05"/>
-
-    <!-- foreground -->
-    <!-- simulate the text w/ something -->
-    <rect x="30" y="120" width="85" height="3" fill="#777870"/>
-    <rect x="36" y="126" width="85" height="3" fill="#777870"/>
-    <rect x="41" y="131" width="85" height="3" fill="#777870"/>
-    <rect x="47" y="137" width="85" height="3" fill="#777870"/>
-
-</svg>
-
-<svg width="220" height="220" 
-     viewPort="0 0 220 220" version="1.1"
-     xmlns="http://www.w3.org/2000/svg">
-
-    <!--
-    fg:     f45844
-    bg:     dfe0e2
-    bottom: a5a6a9
-    side:   2f292b
+<div class="person">
+  <div class="square">
+    <svg width="220" height="220" 
+         viewPort="0 0 220 220" version="1.1"
+         xmlns="http://www.w3.org/2000/svg">
+    
+        <!--
+        fg:     f45844
+        bg:     dfe0e2
+        bottom: a5a6a9
+        side:   2f292b
+        -->
+    
+        <!-- background -->
+        <rect x="0" y="0" width="205" height="190" fill="#dfe0e2"/>
+    
+        <!-- bottom -->
+        <polygon points=" 0,190 205,190 220,220 15,220" fill="#a5a6a9"/>
+    
+        <!-- side -->
+        <polygon points=" 205,0 205,190 220,220 220,30" fill="#2f292b"/>
+    
+        <!-- foreground -->
+        <!-- simulate the text w/ something
+        <rect x="30" y="120" width="85" height="3" fill="#f45844"/>
+        <rect x="36" y="126" width="85" height="3" fill="#f45844"/>
+        <rect x="41" y="131" width="85" height="3" fill="#f45844"/>
+        <rect x="47" y="137" width="85" height="3" fill="#f45844"/>
     -->
+    
+    </svg>
+  </div><!-- class="square" -->
+  <h1 class="name" style="color: #f45844;">
+  The quick brown fox jumped over the et cetera.
+  </h1>
+</div><!-- class="person" -->
 
-    <!-- background -->
-    <rect x="0" y="0" width="205" height="190" fill="#dfe0e2"/>
-
-    <!-- bottom -->
-    <polygon points=" 0,190 205,190 220,220 15,220" fill="#a5a6a9"/>
-
-    <!-- side -->
-    <polygon points=" 205,0 205,190 220,220 220,30" fill="#2f292b"/>
-
-    <!-- foreground -->
-    <!-- simulate the text w/ something -->
-    <rect x="30" y="120" width="85" height="3" fill="#f45844"/>
-    <rect x="36" y="126" width="85" height="3" fill="#f45844"/>
-    <rect x="41" y="131" width="85" height="3" fill="#f45844"/>
-    <rect x="47" y="137" width="85" height="3" fill="#f45844"/>
-
-</svg>
-
-<svg width="220" height="220" 
-     viewPort="0 0 220 220" version="1.1"
-     xmlns="http://www.w3.org/2000/svg">
-
-    <!--
-    fg:     dbb700
-    bg:     0f0a01
-    bottom: eaded0
-    side:   b7c7bd
+<div class="person">
+  <div class="square">
+    <svg width="220" height="220" 
+         viewPort="0 0 220 220" version="1.1"
+         xmlns="http://www.w3.org/2000/svg">
+    
+        <!--
+        fg:     dbb700
+        bg:     0f0a01
+        bottom: eaded0
+        side:   b7c7bd
+        -->
+    
+        <!-- background -->
+        <rect x="0" y="0" width="205" height="190" fill="#0f0a01"/>
+    
+        <!-- bottom -->
+        <polygon points=" 0,190 205,190 220,220 15,220" fill="#eaded0"/>
+    
+        <!-- side -->
+        <polygon points=" 205,0 205,190 220,220 220,30" fill="#b7c7bd"/>
+    
+        <!-- foreground -->
+        <!-- simulate the text w/ something
+        <rect x="30" y="120" width="85" height="3" fill="#dbb700"/>
+        <rect x="36" y="126" width="85" height="3" fill="#dbb700"/>
+        <rect x="41" y="131" width="85" height="3" fill="#dbb700"/>
+        <rect x="47" y="137" width="85" height="3" fill="#dbb700"/>
     -->
+    
+    </svg>
+  </div><!-- class="square" -->
+  <h1 class="name" style="color: #dbb700;">
+  The quick brown fox jumped over the et cetera.
+  </h1>
+</div><!-- class="person" -->
 
-    <!-- background -->
-    <rect x="0" y="0" width="205" height="190" fill="#0f0a01"/>
-
-    <!-- bottom -->
-    <polygon points=" 0,190 205,190 220,220 15,220" fill="#eaded0"/>
-
-    <!-- side -->
-    <polygon points=" 205,0 205,190 220,220 220,30" fill="#b7c7bd"/>
-
-    <!-- foreground -->
-    <!-- simulate the text w/ something -->
-    <rect x="30" y="120" width="85" height="3" fill="#dbb700"/>
-    <rect x="36" y="126" width="85" height="3" fill="#dbb700"/>
-    <rect x="41" y="131" width="85" height="3" fill="#dbb700"/>
-    <rect x="47" y="137" width="85" height="3" fill="#dbb700"/>
-
-</svg>
-
-<svg width="220" height="220" 
-     viewPort="0 0 220 220" version="1.1"
-     xmlns="http://www.w3.org/2000/svg">
-
-    <!--
-    fg:     bfbabe
-    bg:     a63e14
-    bottom: 558a86
-    side:   f1f2f0
+<div class="person">
+  <div class="square">
+    <svg width="220" height="220" 
+         viewPort="0 0 220 220" version="1.1"
+         xmlns="http://www.w3.org/2000/svg">
+    
+        <!--
+        fg:     bfbabe
+        bg:     a63e14
+        bottom: 558a86
+        side:   f1f2f0
+        -->
+    
+        <!-- background -->
+        <rect x="0" y="0" width="205" height="190" fill="#a63e14"/>
+    
+        <!-- bottom -->
+        <polygon points=" 0,190 205,190 220,220 15,220" fill="#558a86"/>
+    
+        <!-- side -->
+        <polygon points=" 205,0 205,190 220,220 220,30" fill="#f1f2f0"/>
+    
+        <!-- foreground -->
+        <!-- simulate the text w/ something
+        <rect x="30" y="120" width="85" height="3" fill="#bfbabe"/>
+        <rect x="36" y="126" width="85" height="3" fill="#bfbabe"/>
+        <rect x="41" y="131" width="85" height="3" fill="#bfbabe"/>
+        <rect x="47" y="137" width="85" height="3" fill="#bfbabe"/>
     -->
+    
+    </svg>
+  </div><!-- class="square" -->
+  <h1 class="name" style="color: #bfbabe;">
+  The quick brown fox jumped over the et cetera.
+  </h1>
+</div><!-- class="person" -->
 
-    <!-- background -->
-    <rect x="0" y="0" width="205" height="190" fill="#a63e14"/>
-
-    <!-- bottom -->
-    <polygon points=" 0,190 205,190 220,220 15,220" fill="#558a86"/>
-
-    <!-- side -->
-    <polygon points=" 205,0 205,190 220,220 220,30" fill="#f1f2f0"/>
-
-    <!-- foreground -->
-    <!-- simulate the text w/ something -->
-    <rect x="30" y="120" width="85" height="3" fill="#bfbabe"/>
-    <rect x="36" y="126" width="85" height="3" fill="#bfbabe"/>
-    <rect x="41" y="131" width="85" height="3" fill="#bfbabe"/>
-    <rect x="47" y="137" width="85" height="3" fill="#bfbabe"/>
-
-</svg>
-
-<svg width="220" height="220" 
-     viewPort="0 0 220 220" version="1.1"
-     xmlns="http://www.w3.org/2000/svg">
-
-    <!--
-    fg:     dddddd
-    bg:     fe9f97
-    bottom: fbae17
-    side:   0095a3
+<div class="person">
+  <div class="square">
+    <svg width="220" height="220" 
+         viewPort="0 0 220 220" version="1.1"
+         xmlns="http://www.w3.org/2000/svg">
+    
+        <!--
+        fg:     dddddd
+        bg:     fe9f97
+        bottom: fbae17
+        side:   0095a3
+        -->
+    
+        <!-- background -->
+        <rect x="0" y="0" width="205" height="190" fill="#fe9f97"/>
+    
+        <!-- bottom -->
+        <polygon points=" 0,190 205,190 220,220 15,220" fill="#fbae17"/>
+    
+        <!-- side -->
+        <polygon points=" 205,0 205,190 220,220 220,30" fill="#0095a3"/>
+    
+        <!-- foreground -->
+        <!-- simulate the text w/ something
+        <rect x="30" y="120" width="85" height="3" fill="#dddddd"/>
+        <rect x="36" y="126" width="85" height="3" fill="#dddddd"/>
+        <rect x="41" y="131" width="85" height="3" fill="#dddddd"/>
+        <rect x="47" y="137" width="85" height="3" fill="#dddddd"/>
     -->
+    
+    </svg>
+  </div><!-- class="square" -->
+  <h1 class="name" style="color: #dddddd;">
+  The quick brown fox jumped over the et cetera.
+  </h1>
+</div><!-- class="person" -->
 
-    <!-- background -->
-    <rect x="0" y="0" width="205" height="190" fill="#fe9f97"/>
-
-    <!-- bottom -->
-    <polygon points=" 0,190 205,190 220,220 15,220" fill="#fbae17"/>
-
-    <!-- side -->
-    <polygon points=" 205,0 205,190 220,220 220,30" fill="#0095a3"/>
-
-    <!-- foreground -->
-    <!-- simulate the text w/ something -->
-    <rect x="30" y="120" width="85" height="3" fill="#dddddd"/>
-    <rect x="36" y="126" width="85" height="3" fill="#dddddd"/>
-    <rect x="41" y="131" width="85" height="3" fill="#dddddd"/>
-    <rect x="47" y="137" width="85" height="3" fill="#dddddd"/>
-
-</svg>
-
-<svg width="220" height="220" 
-     viewPort="0 0 220 220" version="1.1"
-     xmlns="http://www.w3.org/2000/svg">
-
-    <!--
-    fg:     c7943e
-    bg:     fbfbfb
-    bottom: f67944
-    side:   2677bb
+<div class="person">
+  <div class="square">
+    <svg width="220" height="220" 
+         viewPort="0 0 220 220" version="1.1"
+         xmlns="http://www.w3.org/2000/svg">
+    
+        <!--
+        fg:     c7943e
+        bg:     fbfbfb
+        bottom: f67944
+        side:   2677bb
+        -->
+    
+        <!-- background -->
+        <rect x="0" y="0" width="205" height="190" fill="#fbfbfb"/>
+    
+        <!-- bottom -->
+        <polygon points=" 0,190 205,190 220,220 15,220" fill="#f67944"/>
+    
+        <!-- side -->
+        <polygon points=" 205,0 205,190 220,220 220,30" fill="#2677bb"/>
+    
+        <!-- foreground -->
+        <!-- simulate the text w/ something
+        <rect x="30" y="120" width="85" height="3" fill="#c7943e"/>
+        <rect x="36" y="126" width="85" height="3" fill="#c7943e"/>
+        <rect x="41" y="131" width="85" height="3" fill="#c7943e"/>
+        <rect x="47" y="137" width="85" height="3" fill="#c7943e"/>
     -->
+    
+    </svg>
+  </div><!-- class="square" -->
+  <h1 class="name" style="color: #c7943e;">
+  The quick brown fox jumped over the et cetera.
+  </h1>
+</div><!-- class="person" -->
 
-    <!-- background -->
-    <rect x="0" y="0" width="205" height="190" fill="#fbfbfb"/>
-
-    <!-- bottom -->
-    <polygon points=" 0,190 205,190 220,220 15,220" fill="#f67944"/>
-
-    <!-- side -->
-    <polygon points=" 205,0 205,190 220,220 220,30" fill="#2677bb"/>
-
-    <!-- foreground -->
-    <!-- simulate the text w/ something -->
-    <rect x="30" y="120" width="85" height="3" fill="#c7943e"/>
-    <rect x="36" y="126" width="85" height="3" fill="#c7943e"/>
-    <rect x="41" y="131" width="85" height="3" fill="#c7943e"/>
-    <rect x="47" y="137" width="85" height="3" fill="#c7943e"/>
-
-</svg>
-
-<svg width="220" height="220" 
-     viewPort="0 0 220 220" version="1.1"
-     xmlns="http://www.w3.org/2000/svg">
-
-    <!--
-    fg:     f77e5e
-    bg:     303030
-    bottom: 3dbd5d
-    side:   f4f4f4
+<div class="person">
+  <div class="square">
+    <svg width="220" height="220" 
+         viewPort="0 0 220 220" version="1.1"
+         xmlns="http://www.w3.org/2000/svg">
+    
+        <!--
+        fg:     f77e5e
+        bg:     303030
+        bottom: 3dbd5d
+        side:   f4f4f4
+        -->
+    
+        <!-- background -->
+        <rect x="0" y="0" width="205" height="190" fill="#303030"/>
+    
+        <!-- bottom -->
+        <polygon points=" 0,190 205,190 220,220 15,220" fill="#3dbd5d"/>
+    
+        <!-- side -->
+        <polygon points=" 205,0 205,190 220,220 220,30" fill="#f4f4f4"/>
+    
+        <!-- foreground -->
+        <!-- simulate the text w/ something
+        <rect x="30" y="120" width="85" height="3" fill="#f77e5e"/>
+        <rect x="36" y="126" width="85" height="3" fill="#f77e5e"/>
+        <rect x="41" y="131" width="85" height="3" fill="#f77e5e"/>
+        <rect x="47" y="137" width="85" height="3" fill="#f77e5e"/>
     -->
+    
+    </svg>
+  </div><!-- class="square" -->
+  <h1 class="name" style="color: #f77e5e;">
+  The quick brown fox jumped over the et cetera.
+  </h1>
+</div><!-- class="person" -->
 
-    <!-- background -->
-    <rect x="0" y="0" width="205" height="190" fill="#303030"/>
-
-    <!-- bottom -->
-    <polygon points=" 0,190 205,190 220,220 15,220" fill="#3dbd5d"/>
-
-    <!-- side -->
-    <polygon points=" 205,0 205,190 220,220 220,30" fill="#f4f4f4"/>
-
-    <!-- foreground -->
-    <!-- simulate the text w/ something -->
-    <rect x="30" y="120" width="85" height="3" fill="#f77e5e"/>
-    <rect x="36" y="126" width="85" height="3" fill="#f77e5e"/>
-    <rect x="41" y="131" width="85" height="3" fill="#f77e5e"/>
-    <rect x="47" y="137" width="85" height="3" fill="#f77e5e"/>
-
-</svg>
-
-<svg width="220" height="220" 
-     viewPort="0 0 220 220" version="1.1"
-     xmlns="http://www.w3.org/2000/svg">
-
-    <!--
-    fg:     ee8012
-    bg:     e4e6dd
-    bottom: 000003
-    side:   666666
+<div class="person">
+  <div class="square">
+    <svg width="220" height="220" 
+         viewPort="0 0 220 220" version="1.1"
+         xmlns="http://www.w3.org/2000/svg">
+    
+        <!--
+        fg:     ee8012
+        bg:     e4e6dd
+        bottom: 000003
+        side:   666666
+        -->
+    
+        <!-- background -->
+        <rect x="0" y="0" width="205" height="190" fill="#e4e6dd"/>
+    
+        <!-- bottom -->
+        <polygon points=" 0,190 205,190 220,220 15,220" fill="#000003"/>
+    
+        <!-- side -->
+        <polygon points=" 205,0 205,190 220,220 220,30" fill="#666666"/>
+    
+        <!-- foreground -->
+        <!-- simulate the text w/ something
+        <rect x="30" y="120" width="85" height="3" fill="#ee8012"/>
+        <rect x="36" y="126" width="85" height="3" fill="#ee8012"/>
+        <rect x="41" y="131" width="85" height="3" fill="#ee8012"/>
+        <rect x="47" y="137" width="85" height="3" fill="#ee8012"/>
     -->
+    
+    </svg>
+  </div><!-- class="square" -->
+  <h1 class="name" style="color: #ee8012;">
+  The quick brown fox jumped over the et cetera.
+  </h1>
+</div><!-- class="person" -->
 
-    <!-- background -->
-    <rect x="0" y="0" width="205" height="190" fill="#e4e6dd"/>
-
-    <!-- bottom -->
-    <polygon points=" 0,190 205,190 220,220 15,220" fill="#000003"/>
-
-    <!-- side -->
-    <polygon points=" 205,0 205,190 220,220 220,30" fill="#666666"/>
-
-    <!-- foreground -->
-    <!-- simulate the text w/ something -->
-    <rect x="30" y="120" width="85" height="3" fill="#ee8012"/>
-    <rect x="36" y="126" width="85" height="3" fill="#ee8012"/>
-    <rect x="41" y="131" width="85" height="3" fill="#ee8012"/>
-    <rect x="47" y="137" width="85" height="3" fill="#ee8012"/>
-
-</svg>
-
-<svg width="220" height="220" 
-     viewPort="0 0 220 220" version="1.1"
-     xmlns="http://www.w3.org/2000/svg">
-
-    <!--
-    fg:     08327d
-    bg:     fbfbfb
-    bottom: 558a86
-    side:   0f0a01
+<div class="person">
+  <div class="square">
+    <svg width="220" height="220" 
+         viewPort="0 0 220 220" version="1.1"
+         xmlns="http://www.w3.org/2000/svg">
+    
+        <!--
+        fg:     08327d
+        bg:     fbfbfb
+        bottom: 558a86
+        side:   0f0a01
+        -->
+    
+        <!-- background -->
+        <rect x="0" y="0" width="205" height="190" fill="#fbfbfb"/>
+    
+        <!-- bottom -->
+        <polygon points=" 0,190 205,190 220,220 15,220" fill="#558a86"/>
+    
+        <!-- side -->
+        <polygon points=" 205,0 205,190 220,220 220,30" fill="#0f0a01"/>
+    
+        <!-- foreground -->
+        <!-- simulate the text w/ something
+        <rect x="30" y="120" width="85" height="3" fill="#08327d"/>
+        <rect x="36" y="126" width="85" height="3" fill="#08327d"/>
+        <rect x="41" y="131" width="85" height="3" fill="#08327d"/>
+        <rect x="47" y="137" width="85" height="3" fill="#08327d"/>
     -->
+    
+    </svg>
+  </div><!-- class="square" -->
+  <h1 class="name" style="color: #08327d;">
+  The quick brown fox jumped over the et cetera.
+  </h1>
+</div><!-- class="person" -->
 
-    <!-- background -->
-    <rect x="0" y="0" width="205" height="190" fill="#fbfbfb"/>
-
-    <!-- bottom -->
-    <polygon points=" 0,190 205,190 220,220 15,220" fill="#558a86"/>
-
-    <!-- side -->
-    <polygon points=" 205,0 205,190 220,220 220,30" fill="#0f0a01"/>
-
-    <!-- foreground -->
-    <!-- simulate the text w/ something -->
-    <rect x="30" y="120" width="85" height="3" fill="#08327d"/>
-    <rect x="36" y="126" width="85" height="3" fill="#08327d"/>
-    <rect x="41" y="131" width="85" height="3" fill="#08327d"/>
-    <rect x="47" y="137" width="85" height="3" fill="#08327d"/>
-
-</svg>
-
-<svg width="220" height="220" 
-     viewPort="0 0 220 220" version="1.1"
-     xmlns="http://www.w3.org/2000/svg">
-
-    <!--
-    fg:     db2f27
-    bg:     e6c700
-    bottom: 007500
-    side:   008cbc
+<div class="person">
+  <div class="square">
+    <svg width="220" height="220" 
+         viewPort="0 0 220 220" version="1.1"
+         xmlns="http://www.w3.org/2000/svg">
+    
+        <!--
+        fg:     db2f27
+        bg:     e6c700
+        bottom: 007500
+        side:   008cbc
+        -->
+    
+        <!-- background -->
+        <rect x="0" y="0" width="205" height="190" fill="#e6c700"/>
+    
+        <!-- bottom -->
+        <polygon points=" 0,190 205,190 220,220 15,220" fill="#007500"/>
+    
+        <!-- side -->
+        <polygon points=" 205,0 205,190 220,220 220,30" fill="#008cbc"/>
+    
+        <!-- foreground -->
+        <!-- simulate the text w/ something
+        <rect x="30" y="120" width="85" height="3" fill="#db2f27"/>
+        <rect x="36" y="126" width="85" height="3" fill="#db2f27"/>
+        <rect x="41" y="131" width="85" height="3" fill="#db2f27"/>
+        <rect x="47" y="137" width="85" height="3" fill="#db2f27"/>
     -->
+    
+    </svg>
+  </div><!-- class="square" -->
+  <h1 class="name" style="color: #db2f27;">
+  The quick brown fox jumped over the et cetera.
+  </h1>
+</div><!-- class="person" -->
 
-    <!-- background -->
-    <rect x="0" y="0" width="205" height="190" fill="#e6c700"/>
-
-    <!-- bottom -->
-    <polygon points=" 0,190 205,190 220,220 15,220" fill="#007500"/>
-
-    <!-- side -->
-    <polygon points=" 205,0 205,190 220,220 220,30" fill="#008cbc"/>
-
-    <!-- foreground -->
-    <!-- simulate the text w/ something -->
-    <rect x="30" y="120" width="85" height="3" fill="#db2f27"/>
-    <rect x="36" y="126" width="85" height="3" fill="#db2f27"/>
-    <rect x="41" y="131" width="85" height="3" fill="#db2f27"/>
-    <rect x="47" y="137" width="85" height="3" fill="#db2f27"/>
-
-</svg>
-
-<svg width="220" height="220" 
-     viewPort="0 0 220 220" version="1.1"
-     xmlns="http://www.w3.org/2000/svg">
-
-    <!--
-    fg:     e1e0dd
-    bg:     35342f
-    bottom: f1f2f0
-    side:   37bbe4
+<div class="person">
+  <div class="square">
+    <svg width="220" height="220" 
+         viewPort="0 0 220 220" version="1.1"
+         xmlns="http://www.w3.org/2000/svg">
+    
+        <!--
+        fg:     e1e0dd
+        bg:     35342f
+        bottom: f1f2f0
+        side:   37bbe4
+        -->
+    
+        <!-- background -->
+        <rect x="0" y="0" width="205" height="190" fill="#35342f"/>
+    
+        <!-- bottom -->
+        <polygon points=" 0,190 205,190 220,220 15,220" fill="#f1f2f0"/>
+    
+        <!-- side -->
+        <polygon points=" 205,0 205,190 220,220 220,30" fill="#37bbe4"/>
+    
+        <!-- foreground -->
+        <!-- simulate the text w/ something
+        <rect x="30" y="120" width="85" height="3" fill="#e1e0dd"/>
+        <rect x="36" y="126" width="85" height="3" fill="#e1e0dd"/>
+        <rect x="41" y="131" width="85" height="3" fill="#e1e0dd"/>
+        <rect x="47" y="137" width="85" height="3" fill="#e1e0dd"/>
     -->
+    
+    </svg>
+  </div><!-- class="square" -->
+  <h1 class="name" style="color: #e1e0dd;">
+  The quick brown fox jumped over the et cetera.
+  </h1>
+</div><!-- class="person" -->
 
-    <!-- background -->
-    <rect x="0" y="0" width="205" height="190" fill="#35342f"/>
-
-    <!-- bottom -->
-    <polygon points=" 0,190 205,190 220,220 15,220" fill="#f1f2f0"/>
-
-    <!-- side -->
-    <polygon points=" 205,0 205,190 220,220 220,30" fill="#37bbe4"/>
-
-    <!-- foreground -->
-    <!-- simulate the text w/ something -->
-    <rect x="30" y="120" width="85" height="3" fill="#e1e0dd"/>
-    <rect x="36" y="126" width="85" height="3" fill="#e1e0dd"/>
-    <rect x="41" y="131" width="85" height="3" fill="#e1e0dd"/>
-    <rect x="47" y="137" width="85" height="3" fill="#e1e0dd"/>
-
-</svg>
-
-<svg width="220" height="220" 
-     viewPort="0 0 220 220" version="1.1"
-     xmlns="http://www.w3.org/2000/svg">
-
-    <!--
-    fg:     f43530
-    bg:     46454b
-    bottom: 00aabb
-    side:   e0e5da
+<div class="person">
+  <div class="square">
+    <svg width="220" height="220" 
+         viewPort="0 0 220 220" version="1.1"
+         xmlns="http://www.w3.org/2000/svg">
+    
+        <!--
+        fg:     f43530
+        bg:     46454b
+        bottom: 00aabb
+        side:   e0e5da
+        -->
+    
+        <!-- background -->
+        <rect x="0" y="0" width="205" height="190" fill="#46454b"/>
+    
+        <!-- bottom -->
+        <polygon points=" 0,190 205,190 220,220 15,220" fill="#00aabb"/>
+    
+        <!-- side -->
+        <polygon points=" 205,0 205,190 220,220 220,30" fill="#e0e5da"/>
+    
+        <!-- foreground -->
+        <!-- simulate the text w/ something
+        <rect x="30" y="120" width="85" height="3" fill="#f43530"/>
+        <rect x="36" y="126" width="85" height="3" fill="#f43530"/>
+        <rect x="41" y="131" width="85" height="3" fill="#f43530"/>
+        <rect x="47" y="137" width="85" height="3" fill="#f43530"/>
     -->
+    
+    </svg>
+  </div><!-- class="square" -->
+  <h1 class="name" style="color: #f43530;">
+  The quick brown fox jumped over the et cetera.
+  </h1>
+</div><!-- class="person" -->
 
-    <!-- background -->
-    <rect x="0" y="0" width="205" height="190" fill="#46454b"/>
-
-    <!-- bottom -->
-    <polygon points=" 0,190 205,190 220,220 15,220" fill="#00aabb"/>
-
-    <!-- side -->
-    <polygon points=" 205,0 205,190 220,220 220,30" fill="#e0e5da"/>
-
-    <!-- foreground -->
-    <!-- simulate the text w/ something -->
-    <rect x="30" y="120" width="85" height="3" fill="#f43530"/>
-    <rect x="36" y="126" width="85" height="3" fill="#f43530"/>
-    <rect x="41" y="131" width="85" height="3" fill="#f43530"/>
-    <rect x="47" y="137" width="85" height="3" fill="#f43530"/>
-
-</svg>
-
-<svg width="220" height="220" 
-     viewPort="0 0 220 220" version="1.1"
-     xmlns="http://www.w3.org/2000/svg">
-
-    <!--
-    fg:     e0e5db
-    bg:     de3d83
-    bottom: 00b8b8
-    side:   e4bd0b
+<div class="person">
+  <div class="square">
+    <svg width="220" height="220" 
+         viewPort="0 0 220 220" version="1.1"
+         xmlns="http://www.w3.org/2000/svg">
+    
+        <!--
+        fg:     e0e5db
+        bg:     de3d83
+        bottom: 00b8b8
+        side:   e4bd0b
+        -->
+    
+        <!-- background -->
+        <rect x="0" y="0" width="205" height="190" fill="#de3d83"/>
+    
+        <!-- bottom -->
+        <polygon points=" 0,190 205,190 220,220 15,220" fill="#00b8b8"/>
+    
+        <!-- side -->
+        <polygon points=" 205,0 205,190 220,220 220,30" fill="#e4bd0b"/>
+    
+        <!-- foreground -->
+        <!-- simulate the text w/ something
+        <rect x="30" y="120" width="85" height="3" fill="#e0e5db"/>
+        <rect x="36" y="126" width="85" height="3" fill="#e0e5db"/>
+        <rect x="41" y="131" width="85" height="3" fill="#e0e5db"/>
+        <rect x="47" y="137" width="85" height="3" fill="#e0e5db"/>
     -->
+    
+    </svg>
+  </div><!-- class="square" -->
+  <h1 class="name" style="color: #e0e5db;">
+  The quick brown fox jumped over the et cetera.
+  </h1>
+</div><!-- class="person" -->
 
-    <!-- background -->
-    <rect x="0" y="0" width="205" height="190" fill="#de3d83"/>
-
-    <!-- bottom -->
-    <polygon points=" 0,190 205,190 220,220 15,220" fill="#00b8b8"/>
-
-    <!-- side -->
-    <polygon points=" 205,0 205,190 220,220 220,30" fill="#e4bd0b"/>
-
-    <!-- foreground -->
-    <!-- simulate the text w/ something -->
-    <rect x="30" y="120" width="85" height="3" fill="#e0e5db"/>
-    <rect x="36" y="126" width="85" height="3" fill="#e0e5db"/>
-    <rect x="41" y="131" width="85" height="3" fill="#e0e5db"/>
-    <rect x="47" y="137" width="85" height="3" fill="#e0e5db"/>
-
-</svg>
-
-<svg width="220" height="220" 
-     viewPort="0 0 220 220" version="1.1"
-     xmlns="http://www.w3.org/2000/svg">
-
-    <!--
-    fg:     0098d8
-    bg:     0b3536
-    bottom: e5e7de
-    side:   f54123
+<div class="person">
+  <div class="square">
+    <svg width="220" height="220" 
+         viewPort="0 0 220 220" version="1.1"
+         xmlns="http://www.w3.org/2000/svg">
+    
+        <!--
+        fg:     0098d8
+        bg:     0b3536
+        bottom: e5e7de
+        side:   f54123
+        -->
+    
+        <!-- background -->
+        <rect x="0" y="0" width="205" height="190" fill="#0b3536"/>
+    
+        <!-- bottom -->
+        <polygon points=" 0,190 205,190 220,220 15,220" fill="#e5e7de"/>
+    
+        <!-- side -->
+        <polygon points=" 205,0 205,190 220,220 220,30" fill="#f54123"/>
+    
+        <!-- foreground -->
+        <!-- simulate the text w/ something
+        <rect x="30" y="120" width="85" height="3" fill="#0098d8"/>
+        <rect x="36" y="126" width="85" height="3" fill="#0098d8"/>
+        <rect x="41" y="131" width="85" height="3" fill="#0098d8"/>
+        <rect x="47" y="137" width="85" height="3" fill="#0098d8"/>
     -->
+    
+    </svg>
+  </div><!-- class="square" -->
+  <h1 class="name" style="color: #0098d8;">
+  The quick brown fox jumped over the et cetera.
+  </h1>
+</div><!-- class="person" -->
 
-    <!-- background -->
-    <rect x="0" y="0" width="205" height="190" fill="#0b3536"/>
-
-    <!-- bottom -->
-    <polygon points=" 0,190 205,190 220,220 15,220" fill="#e5e7de"/>
-
-    <!-- side -->
-    <polygon points=" 205,0 205,190 220,220 220,30" fill="#f54123"/>
-
-    <!-- foreground -->
-    <!-- simulate the text w/ something -->
-    <rect x="30" y="120" width="85" height="3" fill="#0098d8"/>
-    <rect x="36" y="126" width="85" height="3" fill="#0098d8"/>
-    <rect x="41" y="131" width="85" height="3" fill="#0098d8"/>
-    <rect x="47" y="137" width="85" height="3" fill="#0098d8"/>
-
-</svg>
-
-<svg width="220" height="220" 
-     viewPort="0 0 220 220" version="1.1"
-     xmlns="http://www.w3.org/2000/svg">
-
-    <!--
-    fg:     f0ca75
-    bg:     f0c24f
-    bottom: 151515
-    side:   f3f3eb
+<div class="person">
+  <div class="square">
+    <svg width="220" height="220" 
+         viewPort="0 0 220 220" version="1.1"
+         xmlns="http://www.w3.org/2000/svg">
+    
+        <!--
+        fg:     f0ca75
+        bg:     f0c24f
+        bottom: 151515
+        side:   f3f3eb
+        -->
+    
+        <!-- background -->
+        <rect x="0" y="0" width="205" height="190" fill="#f0c24f"/>
+    
+        <!-- bottom -->
+        <polygon points=" 0,190 205,190 220,220 15,220" fill="#151515"/>
+    
+        <!-- side -->
+        <polygon points=" 205,0 205,190 220,220 220,30" fill="#f3f3eb"/>
+    
+        <!-- foreground -->
+        <!-- simulate the text w/ something
+        <rect x="30" y="120" width="85" height="3" fill="#f0ca75"/>
+        <rect x="36" y="126" width="85" height="3" fill="#f0ca75"/>
+        <rect x="41" y="131" width="85" height="3" fill="#f0ca75"/>
+        <rect x="47" y="137" width="85" height="3" fill="#f0ca75"/>
     -->
+    
+    </svg>
+  </div><!-- class="square" -->
+  <h1 class="name" style="color: #f0ca75;">
+  The quick brown fox jumped over the et cetera.
+  </h1>
+</div><!-- class="person" -->
 
-    <!-- background -->
-    <rect x="0" y="0" width="205" height="190" fill="#f0c24f"/>
-
-    <!-- bottom -->
-    <polygon points=" 0,190 205,190 220,220 15,220" fill="#151515"/>
-
-    <!-- side -->
-    <polygon points=" 205,0 205,190 220,220 220,30" fill="#f3f3eb"/>
-
-    <!-- foreground -->
-    <!-- simulate the text w/ something -->
-    <rect x="30" y="120" width="85" height="3" fill="#f0ca75"/>
-    <rect x="36" y="126" width="85" height="3" fill="#f0ca75"/>
-    <rect x="41" y="131" width="85" height="3" fill="#f0ca75"/>
-    <rect x="47" y="137" width="85" height="3" fill="#f0ca75"/>
-
-</svg>
-
-<svg width="220" height="220" 
-     viewPort="0 0 220 220" version="1.1"
-     xmlns="http://www.w3.org/2000/svg">
-
-    <!--
-    fg:     c2b4a6
-    bg:     635045
-    bottom: e7b300
-    side:   6e7f29
+<div class="person">
+  <div class="square">
+    <svg width="220" height="220" 
+         viewPort="0 0 220 220" version="1.1"
+         xmlns="http://www.w3.org/2000/svg">
+    
+        <!--
+        fg:     c2b4a6
+        bg:     635045
+        bottom: e7b300
+        side:   6e7f29
+        -->
+    
+        <!-- background -->
+        <rect x="0" y="0" width="205" height="190" fill="#635045"/>
+    
+        <!-- bottom -->
+        <polygon points=" 0,190 205,190 220,220 15,220" fill="#e7b300"/>
+    
+        <!-- side -->
+        <polygon points=" 205,0 205,190 220,220 220,30" fill="#6e7f29"/>
+    
+        <!-- foreground -->
+        <!-- simulate the text w/ something
+        <rect x="30" y="120" width="85" height="3" fill="#c2b4a6"/>
+        <rect x="36" y="126" width="85" height="3" fill="#c2b4a6"/>
+        <rect x="41" y="131" width="85" height="3" fill="#c2b4a6"/>
+        <rect x="47" y="137" width="85" height="3" fill="#c2b4a6"/>
     -->
+    
+    </svg>
+  </div><!-- class="square" -->
+  <h1 class="name" style="color: #c2b4a6;">
+  The quick brown fox jumped over the et cetera.
+  </h1>
+</div><!-- class="person" -->
 
-    <!-- background -->
-    <rect x="0" y="0" width="205" height="190" fill="#635045"/>
-
-    <!-- bottom -->
-    <polygon points=" 0,190 205,190 220,220 15,220" fill="#e7b300"/>
-
-    <!-- side -->
-    <polygon points=" 205,0 205,190 220,220 220,30" fill="#6e7f29"/>
-
-    <!-- foreground -->
-    <!-- simulate the text w/ something -->
-    <rect x="30" y="120" width="85" height="3" fill="#c2b4a6"/>
-    <rect x="36" y="126" width="85" height="3" fill="#c2b4a6"/>
-    <rect x="41" y="131" width="85" height="3" fill="#c2b4a6"/>
-    <rect x="47" y="137" width="85" height="3" fill="#c2b4a6"/>
-
-</svg>
-
-<svg width="220" height="220" 
-     viewPort="0 0 220 220" version="1.1"
-     xmlns="http://www.w3.org/2000/svg">
-
-    <!--
-    fg:     fbae17
-    bg:     f7772c
-    bottom: e4e6dd
-    side:   dd6464
+<div class="person">
+  <div class="square">
+    <svg width="220" height="220" 
+         viewPort="0 0 220 220" version="1.1"
+         xmlns="http://www.w3.org/2000/svg">
+    
+        <!--
+        fg:     fbae17
+        bg:     f7772c
+        bottom: e4e6dd
+        side:   dd6464
+        -->
+    
+        <!-- background -->
+        <rect x="0" y="0" width="205" height="190" fill="#f7772c"/>
+    
+        <!-- bottom -->
+        <polygon points=" 0,190 205,190 220,220 15,220" fill="#e4e6dd"/>
+    
+        <!-- side -->
+        <polygon points=" 205,0 205,190 220,220 220,30" fill="#dd6464"/>
+    
+        <!-- foreground -->
+        <!-- simulate the text w/ something
+        <rect x="30" y="120" width="85" height="3" fill="#fbae17"/>
+        <rect x="36" y="126" width="85" height="3" fill="#fbae17"/>
+        <rect x="41" y="131" width="85" height="3" fill="#fbae17"/>
+        <rect x="47" y="137" width="85" height="3" fill="#fbae17"/>
     -->
-
-    <!-- background -->
-    <rect x="0" y="0" width="205" height="190" fill="#f7772c"/>
-
-    <!-- bottom -->
-    <polygon points=" 0,190 205,190 220,220 15,220" fill="#e4e6dd"/>
-
-    <!-- side -->
-    <polygon points=" 205,0 205,190 220,220 220,30" fill="#dd6464"/>
-
-    <!-- foreground -->
-    <!-- simulate the text w/ something -->
-    <rect x="30" y="120" width="85" height="3" fill="#fbae17"/>
-    <rect x="36" y="126" width="85" height="3" fill="#fbae17"/>
-    <rect x="41" y="131" width="85" height="3" fill="#fbae17"/>
-    <rect x="47" y="137" width="85" height="3" fill="#fbae17"/>
-
-</svg>
+    
+    </svg>
+  </div><!-- class="square" -->
+  <h1 class="name" style="color: #fbae17;">
+  The quick brown fox jumped over the et cetera.
+  </h1>
+</div><!-- class="person" -->
 </body>
 </html>
